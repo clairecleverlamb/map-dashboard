@@ -1,4 +1,4 @@
-let states = [
+export let states = [
     {
         "id" : "0400000US04",
         "name" : "Arizona",
