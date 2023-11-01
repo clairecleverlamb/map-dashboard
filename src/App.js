@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+// import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import './App.css'
 import {states} from './states.js'
 
@@ -44,6 +44,7 @@ states.forEach(element => {
   geoJsonForm['features'].push(tempData)
 });
 console.log(geoJsonForm)
+
 
 map.current.on('load', () => {
   // Add a data source containing GeoJSON data.
