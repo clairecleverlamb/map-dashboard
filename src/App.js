@@ -69,15 +69,11 @@ map.current.on('load', () => {
       'layout': {},
       'paint': {
           'line-color': '#000',
-          'line-width': 3
+          'line-width': 4
       }
   });
 });
 
-
-
-
-  
 
   return (
     <div>
